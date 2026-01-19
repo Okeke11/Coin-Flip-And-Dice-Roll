@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip & Dice Roll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="section">
+        <h2>Flip the Coin</h2>
+        <div class="coin-container">
+            <div class="coin" id="coin">
+                <div class="side heads">HEADS</div>
+                <div class="side tails">TAILS</div>
+            </div>
+        </div>
+        <button id="flip-btn">FLIP</button>
+        <p id="coin-result">Click to flip</p>
+    </div>
+
+    <div class="section">
+        <h2>Roll the Dice</h2>
+        <div class="dice-container">
+            <div class="dice" id="dice">
+                <div class="face front" data-val="1">
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                </div>
+                <div class="face back" data-val="6">
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                </div>
+                <div class="face right" data-val="3">
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                </div>
+                <div class="face left" data-val="4">
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                </div>
+                <div class="face top" data-val="2">
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                </div>
+                <div class="face bottom" data-val="5">
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                </div>
+            </div>
+        </div>
+        <button id="roll-btn">ROLL</button>
+        <p id="dice-result">Click to roll</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
